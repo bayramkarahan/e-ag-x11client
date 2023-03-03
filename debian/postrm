@@ -1,0 +1,7 @@
+#!/bin/sh
+
+
+#rm -rf  /usr/share/e-ag
+#chmod 777 /usr/share/e-ag
+
+exit 0

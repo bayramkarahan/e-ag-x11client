@@ -1,0 +1,8 @@
+#!/bin/sh
+
+
+rm -rf /tmp/.e-ag-x11client -y
+pkill  e-ag-x11client
+
+
+exit 0
