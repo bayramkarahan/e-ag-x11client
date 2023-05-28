@@ -578,11 +578,11 @@ bool MainWindow::passwordKontrolSlot(QString kmt)
     if(QFile::exists("/tmp/eagx11client")==true)
     {
         //system("rm -rf /tmp/eagx11client");
-       // qDebug()<<"Şifre: doğru ";
+        qDebug()<<"Şifre: doğru ";
         return true;
     }else
     {
-      // qDebug()<<"Şifre: yanlış ";
+       qDebug()<<"Şifre: yanlış ";
         return false;
     }
 return false;
