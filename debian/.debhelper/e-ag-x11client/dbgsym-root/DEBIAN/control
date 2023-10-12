@@ -1,0 +1,12 @@
+Package: e-ag-x11client-dbgsym
+Source: e-ag-x11client
+Version: 2.2.0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Bayram KARAHAN <bayramk@gmail.com>
+Installed-Size: 45
+Depends: e-ag-x11client (= 2.2.0)
+Section: debug
+Priority: optional
+Description: debug symbols for e-ag-x11client
+Build-Ids: 3c247768d9c9e43e4f2d7b3b5493ce33f809bebe
